@@ -11,7 +11,7 @@ Consigli del giorno:
 Iniziate dalla parte base, se tutto funziona passiamo a fare dei check su casi limite, fatto questo passiamo a vedere se esistono dei metodi di JS che possono aiutarci.
 I bonus sono sempre da fare in cartella separata.*/
 
-/*
+/* first version
 //chiedo all'utente di inserire la propria email
 const mail = prompt('Inserisci la tua email');
 
@@ -22,7 +22,7 @@ console.log(mails);
 let span = document.querySelector('span');
 let find = false;
 
-//creo un ciclo for che cerchi 
+//creo un ciclo for che cerchi gli indirizzi dell'array
 for (let index = 0; index < mails.length; index++) {
     const element = mails[index];
 
@@ -31,7 +31,6 @@ for (let index = 0; index < mails.length; index++) {
         find = true;
     }
 }
-
 
 if (mail == '') { //se la stringa è vuota
     console.log('inserita stringa vuota');
@@ -45,6 +44,7 @@ if (mail == '') { //se la stringa è vuota
 }
 */
 
+//second version
 //creo variabile per bottone
 const button = document.getElementById('generate');
 
